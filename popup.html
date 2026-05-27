@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slotify</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <span class="logo">📅</span>
+        <h1>Slotify</h1>
+        <p class="tagline">IITR Timetable → Google Calendar</p>
+      </div>
+
+      <div id="status-box" class="status hidden"></div>
+
+      <button id="export-btn" class="btn">
+        <span id="btn-text">Export to Google Calendar</span>
+      </button>
+
+      <p class="hint">Open your timetable on Channeli first, then click export.</p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
