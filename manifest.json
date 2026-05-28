@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://channeli.in/*"],
+      "matches": ["https://timetable.iitr.ac.in/*"],
       "js": ["content.js"]
     }
   ],
